@@ -1,0 +1,118 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css';
+.wrap{
+  background-color: whitesmoke;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.247) -1px 5px 10px 5px;
+  background-image: url(/public/rareBooks.jpeg);
+  border: thin red solid;
+}
+.container{
+  padding: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-name{
+  text-align: center;
+  color: grey;
+  padding: 3em;
+}
+.books{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.book{
+  border: thin orange solid;
+  height: 18.8em;
+  width: 12.6em;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.247) -1px 5px 10px 5px;
+  margin: 1em;
+  position: relative;
+}
+.remove-book{
+  position: relative;
+  font-size: 1.5em;
+  top: -0.5em;
+  left: 7.8em;
+  color: red;
+}
+.book-tittle{
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+  z-index: 15;
+}
+.change-input{
+  width: 90%;
+  border:  thin grey solid;
+}
+.book-author{
+  text-align: center;
+  font-size: 0.8em;
+  color: black;
+  z-index: 15;
+} 
+.book-genre{
+  position: relative;
+  top: 14.5em;
+  left: 1em;
+  font-size: 0.8em;
+  color: rgb(22, 22, 22);
+  z-index: 15;
+}
+.book-availability{
+  position: relative;
+  top: 13em;
+  right: 1em;
+  font-size: 0.8em;
+  text-align: right;
+  color: yellowgreen;
+  z-index: 15;
+}   
+.book-image{
+  position: absolute;
+  top: 0;
+  size: cover;
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+.add-book{
+  width: 20em;
+  height: 15em;
+}
+.form-input{
+  text-align: right;
+  margin: 0.5em;
+  display: flex;
+}
+label{
+  color: grey;
+  width: 40%;
+  margin-right: 1em;
+}  
+input{
+  outline: none;
+  border: inset;
+  background-color: rgb(209, 209, 209);
+}
+.add-btn{
+  margin-left: 8.2em;
+}
+button{
+  border: none;
+  background: transparent;
+  display: flex;
+}
+h4{
+  color: grey;
+  margin: 0.2em 0em 0em 2em;
+  font-weight: 100;
+  color: rgb(52, 91, 197);
+  font-size: 0.8em;
+}
+.fa-plus-square{
+  font-size: 1.2em;
+  color: rgb(52, 91, 197);
+}
