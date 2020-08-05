@@ -3,8 +3,7 @@
 .wrap{
   background-color: whitesmoke;
   padding: 0.5em;
-  box-shadow: rgba(0, 0, 0, 0.247) -1px 5px 10px 5px;
-  background-image: url(/public/rareBooks.jpeg);
+  background-image: url('/images/rareBooks.jpeg');
   border: thin red solid;
 }
 .container{
@@ -13,7 +12,7 @@
 }
 .section-name{
   text-align: center;
-  color: grey;
+  color: white;
   padding: 3em;
 }
 .books{
@@ -26,7 +25,7 @@
   height: 18.8em;
   width: 12.6em;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.247) -1px 5px 10px 5px;
+  box-shadow: rgba(0, 0, 0, 0.671) -1px 5px 10px 5px;
   margin: 1em;
   position: relative;
 }
